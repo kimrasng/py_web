@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <style>
+        table, tr, th, td {
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        #title {
+            background-color: whitesmoke;
+        }
+
+        #context {
+            background-color: rgb(92, 121, 146);
+        }
+    </style>
+    <title>실습2</title>
+</head>
+<body>
+    <table>
+        <tr id="title">
+            <th colspan="2">날자</th>
+            <th>날씨</th>
+            <th>풍향</th>
+            <th>풍속(m/s)</th>
+        </tr>
+        <tr id="context">
+            <th rowspan="2">25일(월)</th>
+            <th>오전</th>
+            <th>비</th>
+            <th>남-남서</th>
+            <th>3~7</th>
+        </tr>
+        <tr id="context">
+            <th>오후</th>
+            <th>맑음</th>
+            <th>동-동서</th>
+            <th>1~7</th>
+        </tr>
+        <tr id="context">
+            <th rowspan="2">26일(화)</th>
+            <th>오전</th>
+            <th>비</th>
+            <th>서-북서</th>
+            <th>3~10</th>
+        </tr>
+        <tr id="context">
+            <th>오후</th>
+            <th>맑음</th>
+            <th>북-북서</th>
+            <th>3~5</th>
+        </tr>
+    </table>
+</body>
+</html>
